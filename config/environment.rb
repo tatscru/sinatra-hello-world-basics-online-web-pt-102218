@@ -6,6 +6,3 @@ Bundler.require(:default, ENV['SINATRA_ENV'])
 
 require_relative '../app'
 
-require 'sinatra'
- 
-run Application
